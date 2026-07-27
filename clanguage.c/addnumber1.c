@@ -15,7 +15,7 @@ printf("print the roll number %d\n",marks[i]);
 }
 else{
 
-printf("nothing");
+printf("nothing add");
 
 }
 }
