@@ -8,7 +8,7 @@ int main() {
     cout << "Apna grade enter karein (A, B, C, D, F): ";
     cin >> grade;
 
-    // Grade ke mutabiq description show karna
+    // Grade ke mutabiq description show karna h
     switch (grade) {
         case 'A':
         case 'a':
