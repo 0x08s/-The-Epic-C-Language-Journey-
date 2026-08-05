@@ -3,6 +3,7 @@
 using namespace std;
 
 int main(){
+  
     int matrix[2][3];
 
     cout<<"Enter 6 values for 2x3 matrix:\n";
