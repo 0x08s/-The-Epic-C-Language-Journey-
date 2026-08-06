@@ -34,7 +34,7 @@ int minus2 = m-p;
 printf("%d print the minus2",minus2);
 printf("\n");
 
-//calling function :
+//calling function 
 
 check_calculator(n,m,p);
 
