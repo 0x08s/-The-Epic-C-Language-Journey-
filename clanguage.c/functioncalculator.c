@@ -34,51 +34,51 @@ int minus2 = m-p;
 printf("%d print the minus2",minus2);
 printf("\n");
 
-//calling function 
+//calling function :
 
-check_calculator(n,m,p); 
+check_calculator(n,m,p);
 
 }
 
 //function definition
 int check_calculator(int n,int m,int p){
 if(n+m+p > 0){
-printf("%d print the sum ",n+m+p);    
+printf("%d print the sum ",n+m+p);
 }
 else {
     printf("less than to the zero");
 }
 printf("\n");
 if(n*m*p > 0){
-printf("%d print the multiply ",n*m*p);    
+printf("%d print the multiply ",n*m*p);
 }
 else {
     printf("less than to the zero");
 }
 printf("\n");
 if(m%p > 0){
-printf("%d print the sum ",m%p);    
+printf("%d print the sum ",m%p);
 }
 else {
     printf("less than to the zero");
 }
 printf("\n");
 if(n%m> 0){
-printf("%d print the sum ",n%m);    
+printf("%d print the sum ",n%m);
 }
 else {
     printf("less than to the zero");
 }
 printf("\n");
 if(n-m> 0){
-printf("%d print the sum ",n-m);    
+printf("%d print the sum ",n-m);
 }
 else {
     printf("less than to the zero");
 }
 printf("\n");
 if(m-p> 0){
-printf("%d print the sum ",m-p);    
+printf("%d print the sum ",m-p);
 }
 else {
     printf("less than to the zero");
