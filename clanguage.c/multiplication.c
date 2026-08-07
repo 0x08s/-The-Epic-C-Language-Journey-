@@ -30,8 +30,8 @@ result[i][j] += a[i][k] * b[k][j];
 }
 }
 }
- 
-// print resultant 
+
+// print resultant :
 
 for(int i = 0;i < 3;i++){
 
@@ -42,9 +42,9 @@ printf("%d  ",result[i][j]);
 }
 printf("\n");
 }
- 
 
 
-return 0;  
+
+return 0;
 
 }
