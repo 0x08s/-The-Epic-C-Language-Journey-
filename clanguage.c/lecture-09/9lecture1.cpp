@@ -16,7 +16,7 @@ int main() {
     // Function call karke square calculate karna
     result = square(number);
 
-    // Result display karna
+    // Result display karna :
     cout << "Square of " << number << " is " << result << endl;
 
     return 0;
