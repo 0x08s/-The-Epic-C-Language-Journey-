@@ -1,6 +1,6 @@
 #include <iostream>
 #include <iomanip>
-#include <cmath>     
+#include <cmath>
 using namespace std;
 
 int main() {
@@ -14,6 +14,8 @@ int main() {
         cout << "Please enter a positive radius.\n";
         return 1;
     }
+
+// intialize 
 
     double diameter = 2 * radius;
     double circumference = 2 * PI * radius;
