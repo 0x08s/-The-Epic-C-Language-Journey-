@@ -13,9 +13,9 @@ int check_sign(int n){
 if(n==1){
 printf("%d print the positive number",n);
 }
+
 else{
 printf("%d print the negative number",n);
 }
 return 0;
 }
-
