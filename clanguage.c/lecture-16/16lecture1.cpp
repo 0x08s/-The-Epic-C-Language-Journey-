@@ -3,18 +3,18 @@ using namespace std;
 
 int main(){
     int arr[5];
-    
+
     // Input array elements
     cout<<"Enter 5 elements:\n";
 
     for(int i=0; i<5; i++){
 
         cout<<"arr["<<i<<"]: ";
-        
+
         cin>>arr[i];
     }
-    
-    // Display original array
+
+    // Display original  array
 
     cout<<"\nOriginal Array:\n";\
 
@@ -32,7 +32,7 @@ int main(){
 
         cout<<"arr["<<i<<"] = "<<arr[i]<<"\n";
     }
-    
+
     // Display sum using indexing
     int sum = 0;
 
@@ -45,6 +45,6 @@ int main(){
     cout<<"\nSum of all elements : "<<sum<<"\n";
 
     cout<<"Average of elements : "<<sum/5<<"\n";
-    
+
     return 0;
 }
