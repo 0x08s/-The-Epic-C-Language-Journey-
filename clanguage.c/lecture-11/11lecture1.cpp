@@ -22,6 +22,7 @@ int main() {
             cout << "Please enter a positive integer: ";
         }
     }
+    
 
     // Display stored numbers
     cout << "Numbers stored in the array are: ";
