@@ -7,7 +7,9 @@ int main()
     ofstream file;
 
     int num = 10;
+
     float value = 5.5;
+    
     char ch = 'A';
 
     file.open("test.txt");
