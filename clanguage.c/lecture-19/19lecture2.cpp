@@ -5,7 +5,9 @@ using namespace std;
 int main()
 {
     ifstream inFile("thisFile.txt");
+
     ofstream outFile("thatFile.txt");
+    
     char ch;
 
     while (inFile.get(ch))
