@@ -3,14 +3,15 @@ using namespace std;
 
 int main(){
     int arr[5] = {10, 20, 30, 40, 50};
-    
+
     int *ptr;
-    
+
     // Pointer points to first element of array
-    ptr = arr;  
     
+    ptr = arr;
+
     cout<<"Accessing Array Elements \n";
-    
+
     // Method 1: Using array index
 
     cout<<"\nMethod 1 - Using Array Index (arr[i]):\n";
@@ -43,10 +44,10 @@ int main(){
     for(int i=0; i<5; i++){
 
         cout<<"*ptr = "<<*ptr<<"\n";
-    
+
         ptr++;
     }
-    
+
     // Display addresses
 
     cout<<"\n Memory Addresses\n";
@@ -56,6 +57,6 @@ int main(){
     for(int i=0; i<5; i++)
 
         cout<<"Address of arr["<<i<<"] = "<<&arr[i]<<"\n";
-    
+
     return 0;
 }
