@@ -5,6 +5,7 @@ int main(){
     int arr[5];
 
     // Input array elements
+    
     cout<<"Enter 5 elements:\n";
 
     for(int i=0; i<5; i++){
