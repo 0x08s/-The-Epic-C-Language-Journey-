@@ -5,7 +5,7 @@ int main(){
     int arr[5];
 
     // Input array elements
-    
+
     cout<<"Enter 5 elements:\n";
 
     for(int i=0; i<5; i++){
@@ -13,16 +13,18 @@ int main(){
         cout<<"arr["<<i<<"]: ";
 
         cin>>arr[i];
+
     }
 
     // Display original  array
 
-    cout<<"\nOriginal Array:\n";\
+    cout<<"\nOriginal Array:\n";
 
     for(int i=0; i<5; i++){
 
         cout<<"arr["<<i<<"] = "<<arr[i]<<"\n";
     }
+
     // Manipulate array using indexing
 
     cout<<"\nArray Manipulation:\n";
@@ -35,6 +37,7 @@ int main(){
     }
 
     // Display sum using indexing
+
     int sum = 0;
 
     for(int i=0; i<5; i++){\
