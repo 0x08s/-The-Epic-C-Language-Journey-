@@ -8,6 +8,7 @@ int main(){
     int unluckyEmp;
 
     // Input employee IDs and salaries
+    
     cout<<"Enter Employee ID and Salary for 5 Employees:\n";
     for(int i=0; i<5; i++){
         cout<<"Employee "<<i+1<<" ID: ";
@@ -23,7 +24,7 @@ int main(){
     cout<<"ID\tSalary\n";
 
     for(int i=0; i<5; i++)
-    
+
         cout<<empID[i]<<"\t"<<salary[i]<<"\n";
 
     // Find minimum salary (unlucky employee)
