@@ -7,7 +7,9 @@ int main()
     ifstream file;
 
     int num;
+
     float value;
+    
     char ch;
 
     file.open("test.txt");
