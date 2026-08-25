@@ -1,5 +1,7 @@
 #include<iostream>
+
 #include<cstring>
+
 using namespace std;
 
 int main(){
@@ -35,7 +37,7 @@ int main(){
     // strncat - partial concatenation
 
     cout<<"\nstrncat \n";
-    
+
     cout<<"str3 : "<<str3<<"\n";
 
     cout<<"str2 : "<<str2<<"\n";
