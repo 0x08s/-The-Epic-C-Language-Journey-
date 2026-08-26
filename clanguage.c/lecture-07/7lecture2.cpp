@@ -8,6 +8,7 @@ int main()
     while(i <= 10)
     {
         cout << "2 x " << i << " = " << 2*i << endl;
+        
         i++;
     }
 
