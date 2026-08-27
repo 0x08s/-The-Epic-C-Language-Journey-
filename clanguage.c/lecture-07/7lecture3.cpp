@@ -4,12 +4,15 @@ using namespace std;
 int main()
 {
     int n;
+
     int sum = 0;
 
     cout << "Enter value of n: ";
+
     cin >> n;
 
     if (n < 1)
+    
     {
         cout << "Invalid input!\n";
         return 1;
