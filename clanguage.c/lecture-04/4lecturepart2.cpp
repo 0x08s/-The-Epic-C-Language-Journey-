@@ -4,7 +4,9 @@
 using namespace std;
 
 int main() {
+
     const double PI = 3.141;
+    
     double radius;
 
     cout << "Enter radius of circle: ";
@@ -15,7 +17,7 @@ int main() {
         return 1;
     }
 
-// intialize 
+// intialize
 
     double diameter = 2 * radius;
     double circumference = 2 * PI * radius;
