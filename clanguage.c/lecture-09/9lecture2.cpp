@@ -11,10 +11,11 @@ int raiseToPow(int base, int exponent) {
 }
 
 int main() {
+
     int num, power, answer;
 
     // User se input lena
-    
+
     cout << "Number enter karein: ";
     cin >> num;
     cout << "Power enter karein: ";
