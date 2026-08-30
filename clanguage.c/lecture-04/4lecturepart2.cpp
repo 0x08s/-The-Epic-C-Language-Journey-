@@ -6,15 +6,17 @@ using namespace std;
 int main() {
 
     const double PI = 3.141;
-    
+
     double radius;
 
     cout << "Enter radius of circle: ";
     cin >> radius;
 
     if (radius <= 0) {
+
         cout << "Please enter a positive radius.\n";
         return 1;
+        
     }
 
 // intialize
