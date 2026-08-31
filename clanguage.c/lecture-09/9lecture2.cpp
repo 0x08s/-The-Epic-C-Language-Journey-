@@ -2,11 +2,16 @@
 using namespace std;
 
 // Function to raise a number to a power
+
 int raiseToPow(int base, int exponent) {
+
     int result = 1;
+
     for(int i = 1; i <= exponent; i++) {
+      
         result = result * base;
     }
+
     return result;
 }
 
